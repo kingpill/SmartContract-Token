@@ -4,7 +4,7 @@ Smart token contract created in solidity (using openzeppelin and hardhat(for tes
 
 1. Upgradeable (through proxy)
 2. Burnable
-3. Mintable (up to the initial supply of 120,000,000). Attempting to mint anything above the initial supply will fail.
+3. Mintable (up to the initial supply of 120,000,000). Attempting to mint anything above the initial supply will fail. Only admin(s) with 'minter' role can mint new tokens.
 4. Pausable: All transactions of the token can be halted by the admin in case of security threats
 5. Access control: The developers of the tokens can be given access to certain functions in order to upgrade and change only that specific function
 6. Flash loans- Function to grant flashloans(loans given and paid back in the same transaction without a deposit or collateral, granted only if the transaction succeeds).
