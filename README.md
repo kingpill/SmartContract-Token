@@ -8,6 +8,6 @@ Smart token contract created in solidity (using openzeppelin and hardhat(for tes
 4. Pausable: All transactions of the token can be halted by the admin in case of security threats
 5. Access control: The developers of the tokens can be given access to certain functions in order to upgrade and change only that specific function
 6. Flash loans- Function to grant flashloans(loans given and paid back in the same transaction without a deposit or collateral, granted only if the transaction succeeds).
-7. Votes: Holders of the token will be able to vote(through a DAO) on certain aspects for the token developers. Further features need to be build for this to be complete.
+7. Votes: Holders of the token will be able to vote(through a DAO) on certain aspects for the token developers to be guided by. Further features need to be built for this to be complete.
 
 Built with ERC20 protocol and compatible with EVM.
